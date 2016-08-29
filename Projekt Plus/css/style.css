@@ -1,0 +1,380 @@
+img {
+	border:none
+}
+body {
+	margin:0;
+	padding:0;
+	background: url(../images/bgpattern.png) repeat;
+}
+.clear{
+	clear:both;
+}
+.main-header {
+	width:940px;
+	margin:0 auto;
+	border-bottom:2px solid black;
+}
+.logo {
+	width:115px;
+	height:69px;
+	float:left;
+	margin-top:15px;
+}
+.nav-wrap { width:641px; float:right;
+margin-top:39px;  }
+#example-one { margin: 0 auto; list-style: none; position: relative; width: 960px; }
+#example-one li { display: inline; }
+#example-one li a { padding: 0px 15px 0px 15px;
+	text-decoration:none;
+	color:#202829;
+	font-family: Century Gothic;
+	font-weight:bold;
+	line-height:42px;}
+#example-one li a:hover { color:green;
+	padding-bottom:7px;}
+#magic-line { position: absolute;  
+				left: 0; width: 100px; 
+				height: 5px; 
+				background: #53bbd4;
+				top:40px;}
+.main-slider {
+	width:940px;
+	margin:20px auto 0px auto;
+	background: #16768d url(../images/sliderbg.jpg) no-repeat;
+	
+}
+.hija2 {
+	width: 940px;
+	height: 72px;
+	position: absolute;
+	z-index: -1;
+	margin-top: 280px;
+	background: url(../images/hija2.png) no-repeat;
+}
+.welcome {
+	width:300px;
+	float:left;
+}
+.welcome h1 {
+	font-family:Century Gothic;
+	font-size:25px;
+	font-weight:bold;
+	color:#fff;
+	line-height:34px;
+	text-transform:uppercase;
+	margin-left:20px;
+}
+.welcome h2 {
+	font-family:Century Gothic;
+	font-size:20px;
+	font-weight: normal;
+	color:#fff;
+	line-height:30px;
+	margin-left:20px;
+}
+.sliderbox {
+	width:640px;
+	height:332px;	
+	float:right;
+	position:relative;
+}
+.slider-wrapper { 
+	width:640px;
+	height:332px;
+}
+
+.boxes {
+	width:940px;
+	margin:30px auto 0px auto;
+}
+.box1{ 
+				width:298px;
+				height:215px;
+				margin-right:19px;
+				float:left; 
+				background:#161613 ; 
+				border: solid 2px #8399AF; 
+				overflow: hidden; 
+				position: relative; 
+			}
+				.box1 img{ 
+					position: absolute; 
+					top: 0; 
+					left: 0; 
+					border: 0; 
+				}
+				.box1 p{ 
+					text-transform:uppercase;
+					text-align:center; 
+					padding-top:70px;
+					color:#ffffff; 
+					font-weight:bold; 
+					font-family:Century Gothic;
+					font-size:18px
+				}
+				
+			.boxcaption{ 
+				float: left; 
+				position: absolute; 
+				background: #000 url(../images/vija2.png) no-repeat bottom;; 
+				width:298px;
+				height:215px; 
+				opacity: .8; 
+				margin-top:0px;
+				/* For IE 5-7 */
+				filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+				/* For IE 8 */
+				-MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+ 			}
+ 				.captionfull .boxcaption {
+ 					top: 0;
+ 					left: 0;
+ 				}
+ 				.caption .boxcaption {
+ 					top: 0;
+ 					left: 0;
+ 				}
+
+
+.box2{ 
+				width:298px;
+				height:215px;
+				float:left; 
+				background:#161613 ; 
+				border: solid 2px #8399AF; 
+				overflow: hidden; 
+				position: relative; 
+			}
+				.box2 img{ 
+					position: absolute; 
+					top: 0; 
+					left: 0; 
+					border: 0; 
+				}
+				.box2 p{ 
+					text-transform:uppercase;
+					text-align:center; 
+					padding-top:70px;
+					color:#ffffff; 
+					font-weight:bold; 
+					font-family:Century Gothic;
+					font-size:18px
+				}
+				
+			.boxcaption{ 
+				float: left; 
+				position: absolute; 
+				background: #000 url(../images/vija2.png) no-repeat bottom;; 
+				width:298px;
+				height:215px; 
+				opacity: .8; 
+				margin-top:0px;
+				/* For IE 5-7 */
+				filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+				/* For IE 8 */
+				-MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+ 			}
+ 				.captionfull .boxcaption {
+ 					top: 0;
+ 					left: 0;
+ 				}
+ 				.caption .boxcaption {
+ 					top: 0;
+ 					left: 0;
+ 				}
+
+
+
+.box3{ 
+				width:298px;
+				height:215px;
+				float:right; 
+				background:#161613 ; 
+				border: solid 2px #8399AF; 
+				overflow: hidden; 
+				position: relative; 
+			}
+				.box3 img{ 
+					position: absolute; 
+					top: 0; 
+					left: 0; 
+					border: 0; 
+				}
+				.box3 p{ 
+					text-transform:uppercase;
+					text-align:center; 
+					padding-top:70px;
+					color:#ffffff; 
+					font-weight:bold; 
+					font-family:Century Gothic;
+					font-size:18px
+				}
+				
+			.boxcaption{ 
+				float: left; 
+				position: absolute; 
+				background: #000 url(../images/vija2.png) no-repeat bottom;; 
+				width:298px;
+				height:215px; 
+				opacity: .8; 
+				margin-top:0px;
+				/* For IE 5-7 */
+				filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+				/* For IE 8 */
+				-MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+ 			}
+ 				.captionfull .boxcaption {
+ 					top: 0;
+ 					left: 0;
+ 				}
+ 				.caption .boxcaption {
+ 					top: 0;
+ 					left: 0;
+ 				}
+.box-pershkrimi {
+	width:960px;
+	margin:40px auto 0px auto;
+	background-color:#dedede;
+}
+.hija {
+	width:960px;
+	height:69px;
+	float:left;
+	position:absolute;
+	z-index:-1;
+	margin-top:-40px;
+}
+.left-foto {
+	width:290px;
+	height:215px;
+	float:left;
+	padding-bottom:20px;
+	margin:20px auto 0px 20px;
+	position:relative;
+	z-index:0;
+}
+.text-plus {
+	width:630px;
+	float:right;
+	margin:20px auto 0px auto;
+}
+.text-plus h3 {
+	font-family:Century Gothic;
+	font-size:20px;
+	font-weight:bold;
+	color:#000;
+	line-height:12px;
+	margin-top:0px;
+}
+.text-plus p {
+	font-family:Century Gothic;
+	font-size:14px;
+	font-weight:normal;
+	color:#000;
+	line-height:22px;
+	margin-top:0px;
+	padding-bottom:10px;
+}
+.text-plus a{
+	font-family:Century Gothic;
+	font-size:14px;
+	font-weight:bold;
+	text-transform:uppercase;
+	color:#2f92aa;
+	text-decoration:none;
+	line-height:22px;
+	margin-top:-20px;
+	margin-right:20px;
+	float:right;
+}
+.main-footer {
+	width:100%;
+	margin-top:30px;
+	border-top:1px solid #909696;
+	background: url(../images/bgfooter.png) repeat;
+}
+.footer1 {
+	width:960px;
+	margin:0 auto;
+	
+	border-bottom: 2px solid #ffffff; 
+}
+.footer1 h4 {
+	font-family:Century Gothic;
+	font-size:18px;
+	font-weight:bold;
+	text-transform:uppercase;
+	color:#fff;
+	line-height:19px;
+}
+.foto-box1 {
+	width:214px;
+	height:124px;
+	float:left;
+	border:3px solid #fff;
+	margin-right:25px;
+	margin-bottom:30px;
+}
+.foto-box2 {
+	width:214px;
+	float:left;
+	margin-right:27px;
+	border:3px solid #fff;
+}
+.foto-box3 {
+	width:214px;
+	height:124px;
+	float:left;
+	border:3px solid #fff;
+}
+.foto-box4 {
+	width:214px;
+	height:124px;
+	float:right;
+	border:3px solid #fff;
+}
+.footer2 {
+	width:960px;
+	margin:0 auto;
+}
+.adressa{
+	width:auto;
+	float:left;
+	background: url(../images/adress.png) no-repeat center left;
+}
+.adressa p {
+	font-family:Century Gothic;
+	font-size:16px;
+	font-weight:nromal;
+	color:#fff;
+	line-height:29px;
+	margin-left: 25px;
+}
+.telefon {
+	width:auto;
+	float:left;
+	margin-left:90px;
+	background: url(../images/telefon.png) no-repeat center left;
+}
+.telefon p {
+	font-family:Century Gothic;
+	font-size:16px;
+	font-weight:nromal;
+	color:#fff;
+	line-height:29px;
+	margin-left: 35px;
+}
+.email {
+	width:auto;
+	float:right;
+	margin-left:80px;
+	background: url(../images/email.png) no-repeat center left;
+}
+.email p {
+	font-family:Century Gothic;
+	font-size:16px;
+	font-weight:nromal;
+	color:#fff;
+	line-height:29px;
+	margin-left: 35px;
+}
