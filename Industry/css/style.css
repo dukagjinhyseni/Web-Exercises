@@ -1,0 +1,486 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+img {
+	border: none;
+}
+.header-up{
+	width: 100%;
+	height: 32px;
+	background-color: #3a3a3a;
+}
+.header-menu{
+	width: 100%;
+	height: 135px;
+	background: url(../images/bgheader.png);
+}
+.main-menu{
+	width: 960px;
+	height: 107px;
+	margin: 0 auto;
+	padding-top: 28px;
+}
+.main-menu ul li:hover{
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+
+.main-menu ul li a:hover, .main-menu ul li.a a {
+	background: #ffd800;	
+}
+
+.main-menu ul li {
+	list-style: none;
+	float: left;
+	margin-right: 40px;
+	border-left: 2px solid rgba(0, 0, 0, 0.13);
+	border-right: 2px solid rgba(0, 0, 0, 0.13);
+	line-height: 80px;
+}
+.main-menu ul li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: Calibri;
+	font-size: 22px;
+	color: #000000;
+	line-height: 80px;
+	padding:54px 10px;
+}
+.maincontent{
+	width: 100%;
+}
+
+.mainlogo{
+	width: 960px;
+	height: 160px;
+	margin:0 auto;
+}
+.logo{
+	width: 355px;
+	height: 120px;
+	margin-top: 30px;
+	float: left;
+}
+.mail{
+	width: 200px;
+	height: 45px;
+	float: right;
+	margin-top: 70px;
+	background-color: black;
+}
+.inputform{
+	width: 183px;
+	height: 30px;
+	margin-left: 777px;
+	margin-top: 103px;
+	position: absolute;
+	background: url(../images/inputfoto.png)no-repeat;
+}
+.inputform form{
+	margin-left: 5px;
+	margin-top: 4px; 
+	width: 181px;
+	height: 30px;
+	position: absolute;
+	border: none;
+}
+.formtxt{
+	width:140px;
+	height:24px;
+	padding-left:5px;
+	font-family: Arial;
+	color: #000;
+	border:none;
+	font-size: 12px;
+	outline: none;
+}
+.formbtn{
+	width:20px;
+	margin-left:6px;
+	margin-top:4px;
+	width: 26px;
+	height: 19px;
+	cursor: pointer;
+	border:none;
+	position:absolute;
+	background: url(../images/msg.png)no-repeat;
+}
+.inputform a img{
+	float: right;
+	margin-right: 7px;
+	margin-top: 5px;
+}
+.slider{
+	width: 1117px;
+	height: 446px;
+	margin: 0 auto;
+}
+.main-conent{
+	width: 960px;
+	margin: 0 auto;
+}
+.content-up{
+	width: 960px;
+	height: 265px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+.box1{
+	width: 330px;
+	height: 265px;
+	background-color: #ffffff;
+	float: left;
+}
+.box2{
+	margin-right: 36px;
+	margin-left: 40px;
+	width: 282px;
+	height: 265px;
+	background-color: #ffffff;
+	float: left;
+}
+.box3{
+	width: 272px;
+	height: 265px;
+	background-color: #ffffff; 
+	float: left;
+}
+.box11 h1{
+	font-family: Calibri;
+	font-size: 22px;
+	font-weight: bold;
+	color: #000000;
+	line-height: 62px;
+	margin-left: 70px;
+}
+.box12 p{
+	font-size: 16px;
+	font-family: Calibri;
+	color: #000000;
+}
+.boxmehri a{
+	float: left;
+	font-family: Calibri;
+	font-size: 18px;
+	color: #000000;
+	background: url(../images/mehr1.png) no-repeat 53px;
+	padding-right: 30px;
+	font-weight: Bold;
+	margin-top: 15px;
+}
+.boxmehri:hover p a , .boxmehri p a:active{
+	background: url(../images/mehr2.png) no-repeat 53px;
+	color: #ffe245;
+	float: left;
+	font-family: Calibri;
+	font-size: 18px;
+	padding-right: 30px;
+	font-weight: Bold;
+	margin-top: 15px;
+}
+.boximg1{
+	background: url(../images/box1b.png) no-repeat;
+}
+.boximg1:hover{
+	background:url(../images/box1a.png)no-repeat;
+}
+.boximg2{
+	background: url(../images/box2a.png) no-repeat;
+}
+.boximg2:hover{
+	background:url(../images/box2b.png)no-repeat;
+}
+.boximg3{
+	background: url(../images/box3a.png) no-repeat;
+}
+.boximg3:hover{
+	background:url(../images/box3b.png)no-repeat;
+}
+.under-content{
+	width: 960px;
+	height: 57px;
+	background: url(../images/bg1.png) no-repeat;
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
+.under-content h2{
+	font-size: 30px;
+	line-height: 57px;
+	color: #000000;
+	font-family: Calibri;
+	text-align: center;
+	text-shadow: -2px -1px 0 #dfdfdf, 2px -1px 0 #dfdfdf, -1px 1px 0 #dfdfdf, 1px 1px 0 #dfdfdf;
+           
+           
+           
+}
+.content-messi{
+	width: 960px;
+	height: 380px;
+	border-top: 2px solid #000000;
+	border-bottom:  2px solid #000000;
+	background-color: #efefef;
+}
+.messi1{
+	width: 210px;
+	height: 310px;
+	float: left;
+	margin-top: 30px;
+	margin-left: 28px;
+}
+.messi1 h1{
+	font-family: Calibri;
+	color: #000000;
+	font-size: 22px;
+}
+.messi1 p{
+	width:170px;
+	height:195px;
+	font-family: Calibri;
+	font-size: 16px;
+	color: #000000;
+	margin-top: 20px; 
+}
+.messi1 p a{
+	font-family: Calibri;
+	font-weight: Bold;
+	font-size: 18px;
+	color: #000000; 
+	background: url(../images/mehr1.png) no-repeat 53px;
+	padding-right: 30px;
+}
+.messi1 p a:hover{
+	background:url(../images/mehr2.png)no-repeat 53px;
+	font-family: Calibri;
+	font-weight: Bold;
+	font-size: 18px;
+	color: #ffe245; 
+	}
+.messi2{
+	width: 210px;
+	height: 310px;
+	float: left;
+	margin-right: 30px;
+	margin-top:25px;
+}
+.personi{
+	width: 210px;
+	height: 230px;
+	background: url(../images/personia.png) no-repeat;
+}
+.newsfoto{
+	width: 210px;
+	height: 230px;
+	background: url(../images/fotonews.png) no-repeat;
+}
+.njeri1{
+	width: 210px;
+	height: 230px;
+	background: url(../images/person.png) no-repeat;
+}
+.njeri1:hover{
+	background: url(../images/personb.png) no-repeat;
+}
+.personi1 {
+	width: 210px;
+	height: 82px;
+	background:#414141 url(../images/mehrimadh.png) no-repeat 170px 30px;
+}
+.personi1  p a{
+	font-size: 22px;
+	font-family: Calibri;
+	text-decoration: none;
+	color: #000000;
+	margin-top:30px;
+	position: absolute;
+	margin-left: 10px;
+}
+.personi1:hover{
+	background:#ffd800 url(../images/mehrimadh.png) no-repeat 170px 30px;
+}
+.content-down{
+	width: 960px;
+	height: 400px;
+}
+.boxleft{
+	margin-top: 50px;
+	width: 490px;
+	height: 315px;
+	float: left;
+	background: url(../images/fotoleft.png) no-repeat left 60px; 
+}
+.boxleft h1{
+	font-size: 22px;
+	font-family: Calibri;
+	font-weight: Bold;
+	color: #000000;
+	text-transform: uppercase;
+}
+.boxleft h4{
+	font-family: Calibri;
+	font-weight: Bold;
+	color: #000000;
+	margin-top: 50px;
+	margin-left: 190px;
+	line-height: 20px; 
+}
+.boxleft p{
+	float: left;
+	margin-top: 55px;
+	font-family: Calibri;
+	font-size: 16px;
+	line-height: 20px;
+	color: #000000;
+}
+.boxright{
+	background: url(../images/vijames1.png) no-repeat left;
+	margin-top: 50px;
+	width: 300px;
+	height: 315px;
+	float: left;
+	margin-left: 20px;
+}
+.boxright h1{
+	font-size: 22px;
+	font-family: Calibri;
+	font-weight: Bold;
+	color: #000000;
+	text-transform: uppercase;
+	margin-left: 50px;
+}
+.boxright li{
+	margin-top: 20px;
+	margin-left: 50px;
+}
+.boxright ul li a{
+	font-family: Calibri;
+	font-weight: Bold;
+	font-size: 16px;
+	text-decoration: none;
+	color: #000000;
+	line-height: 20px;
+	background: url(../images/minicursor2.png) no-repeat;
+	padding-left: 50px;
+}
+.boxright ul li a:hover{
+	background: url(../images/minicursor1.png) no-repeat;
+}
+.boxright ul{
+	list-style: none;
+	padding-top: 5px;
+}
+.bottom{
+	width: 100%;
+	height: 118px;
+	background-color: #3a3a3a;
+}
+.mainfooter{
+	width: 100%;
+	height: 118px;
+	background-color: #3a3a3a;
+}
+.footer{
+	width: 960px;
+	height: 115px;
+	margin: 0 auto;
+}
+.teladress{
+	width: 135px;
+	height: 40px;
+	float: left;
+	margin-top: 11px;
+}
+.teladress p {
+	font-family: Calibri;
+	font-size: 16px;
+	color: #858585;
+	position: absolute;
+	padding-top: 5px;
+
+}
+.teladress h3 {
+	font-size: 16px;
+	font-family: Calibri;
+	color: #070707;
+	padding-left: 35px;
+	padding-top: 5px;
+}
+.adress-home{
+	width: 300px;
+	height: 20px;
+	margin-left: 280px;
+	margin-top: 20px;
+	position: absolute;
+}
+.adress-home p{
+	font-family: Calibri;
+	font-size: 16px;
+	color: #858585;
+	position: absolute;
+}
+.adress-home h3 {
+	font-size: 16px;
+	font-family: Calibri;
+	color: #070707;
+	padding-left: 60px;
+}
+.email-adresa{
+	width: 350px;
+	height: 20px;
+	margin-left: 665px;
+	margin-top: 20px;
+	float: right;
+	position: absolute;
+}
+.email-adresa p{
+	font-family: Calibri;
+	font-size: 16px;
+	color: #858585;
+	position: absolute;
+	margin-top: 3px;
+}
+.email-adresa h3 a{
+	font-size: 16px;
+	font-family: Calibri;
+	color: #070707;
+	margin-left: 50px;
+	text-decoration:none;
+}
+.impresum{
+	width: 150px;
+	height: 20px;
+	float: left;
+}
+.impressum p {
+	font-size: 16px;
+	font-family: Calibri;
+	color: #b5b5b5;
+	margin-top: 95px;
+	position: absolute;
+}
+.impressum p a{
+	font-size: 16px;
+	font-family: Calibri;
+	color: #b5b5b5;
+	margin-left: 10px;
+	text-decoration: none;
+}
+.dizajnimi{
+	margin-top: 95px;
+	float: right;
+}
+.dizajnimi p a{
+	font-size: 16px;
+	font-family: Calibri;
+	text-decoration: none;
+	color: #b5b5b5;
+	text-decoration: none;
+	margin-left:5px;
+}
+.dizajnimi p{
+	font-size: 16px;
+	font-family: Calibri;
+	text-decoration: none;
+	color: #b5b5b5;
+}
