@@ -1,0 +1,241 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background: #e6e6e6;
+}
+img {
+	border: none;
+}
+.mainlogo{
+	width: 100%;
+	height: 106px;
+}
+.logo{
+	width: 207px;
+	height: 104px;
+	margin: 0 auto;
+}
+.mainmenu{
+	width: 100%;
+	height: 74px;
+	border-bottom: 1px solid #ff8daa;
+	background: #d4d4d4;
+}
+.menu{
+	width: 940px;
+	height: 100%;
+	margin: 0 auto;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+	
+
+}
+.menu ul li a{
+	font-size: 18px;
+	color: #000000;
+	font-family: Myriad Pro;
+	text-decoration: none;
+	padding:28px 25px;
+	height: 18px;
+	display: block;
+}
+.menu ul li a:hover, .menu ul li.active a{
+	background: url(../img/fitnes9.png) no-repeat;
+	background-size: 100% 100%;
+}
+.mainslider{
+	width: 100%;
+	height: 467px;
+	background: url(../img/bdslider.png) repeat-x;
+} 
+.slider{
+	width: 1240px;
+	height: 467px;
+	margin: 0 auto;
+}
+.page{
+	position: relative;
+	z-index: 99999;
+	width: 940px;
+	height: 390px;
+	margin: -105px auto 0px auto;
+	background: #f2f2f2;
+	border-top: 3px solid #ff0066;
+}
+.page:after {
+	position: absolute;
+	left: -21px;
+	content: url(../img/lefthija.png);
+}
+.page:before {
+	position: absolute;
+	right: -21px;
+	content: url(../img/righthija.png);
+}
+.page img{
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.righttxt{
+	float: left;
+
+}
+
+.righttxt h1{
+	font-size: 25px;
+	font-family: Myriad Pro;
+	color: #5e5e5e;
+	margin-top: 35px;
+	font-weight: normal;
+	margin-bottom: 45px;
+}
+.righttxt p{
+	font-size: 18px;
+	font-family: Myriad Pro;
+	line-height: 25px;
+	color: #959595;
+	margin-left: 20px;
+}
+.righttxt ul{
+	margin-top: 25px;
+	margin-left: 20px;
+}
+.righttxt ul li{
+	font-size: 18px;
+	font-family: Myriad Pro;
+	color: #959595;
+	list-style: none;
+}
+.righttxt ul li:before{
+	content:"-";
+	padding-right: 30px;
+}
+.maincontent{
+	width: 894px;
+	margin: 0 auto;
+}
+.content{
+	width: 804px;
+	padding: 20px 45px 60px 45px;
+	background:  #c6d11e;
+}
+.content h2{
+	font-family: Myriad Pro;
+	font-size: 16px;
+	color: #ff0066;
+	border-bottom: 1px solid #d4e114;
+	line-height: 30px;
+}
+.contenttxt{
+	width: 725px;
+}
+.contenttxt p{
+	margin-top: 15px;
+	font-size: 14px;
+	line-height: 18px;
+	font-family: Myriad Pro;
+	color: #000000;
+}
+.kutia{
+	width: 237px;
+	height: 165px;
+	background-color: red;
+	float: left;
+	margin-top: 35px;
+}
+.mesi{
+	margin-left: 43px;
+	margin-right: 43px;
+}
+.clear{
+	clear: both;
+}
+.kontaktet{
+	width: 100%;
+	height: 40px;
+	margin-top: 60px;
+	margin-bottom: 50px;
+}
+.tele{
+	float: left;
+	width: 240px;
+
+}
+.home{
+	float: left;
+}
+.mail{
+	float: right;
+}
+.tele img, .tele p{
+	float: left;
+	font-size: 16px;
+	font-family: Myriad Pro;
+	color: #e6e6e6;
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.85);
+	padding-left: 8px;
+	line-height: 38px;
+
+}
+.home img, .home p{
+	float: left;
+	font-size: 16px;
+	font-family: Myriad Pro;
+	color: #e6e6e6;
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.85);
+	padding-left: 8px;
+	line-height: 38px;
+
+}
+.mail img, .mail a p {
+	float: left;
+	font-size: 16px;
+	font-family: Myriad Pro;
+	color: #e6e6e6;
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.85);
+	padding-left: 8px;
+	line-height: 38px;
+}
+.fundi{
+	width: 100%;
+	margin-bottom: 28px;
+}
+
+.fundi1 p{
+	float: left;
+	margin-right: 35px;
+}
+
+.fundi2{
+	float: right;
+}
+.fundi1 p a{
+	font-size: 16px;
+	font-family: Myriad Pro;
+	text-decoration: none;
+	color: #e6e6e6;
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.85);
+}
+.fundi2 p a{
+	font-size: 16px;
+	font-family: Myriad Pro;
+	text-decoration: none;
+	color: #e6e6e6;
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.85);
+}
+.fundi2 p{
+	font-size: 16px;
+	font-family: Myriad Pro;
+	text-decoration: none;
+	color: #e6e6e6;
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.85);
+}
+.fundi1 p a:hover, .fundi2 p a:hover{
+	color: #dc3276;
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.85);
+}
