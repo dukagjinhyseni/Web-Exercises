@@ -1,0 +1,1726 @@
+@font-face {
+       font-family: 'helveticaltstdblk';
+       src: url('../fonts/helveticaltstdblk.eot');
+       src: url('../fonts/helveticaltstdblk.eot?#iefix') format('embedded-opentype'),
+            url('../fonts/helveticaltstdblk.woff') format('woff'), 
+            url('../fonts/helveticaltstdblk.ttf')  format('truetype'), 
+            url('../fonts/helveticaltstdblk.svg#helveticaltstdblk') format('svg');     
+}
+@font-face {
+       font-family: 'helveticaltstdbold';
+       src: url('../fonts/helveticaltstdbold.eot');
+       src: url('../fonts/helveticaltstdbold.eot?#iefix') format('embedded-opentype'),
+            url('../fonts/helveticaltstdbold.woff') format('woff'), 
+            url('../fonts/helveticaltstdbold.ttf')  format('truetype'), 
+            url('../fonts/helveticaltstdbold.svg#helveticaltstdbold') format('svg');     
+}
+@font-face {
+       font-family: 'helveticaltstdlight';
+       src: url('../fonts/helveticaltstdlight.eot');
+       src: url('../fonts/helveticaltstdlight.eot?#iefix') format('embedded-opentype'),
+            url('../fonts/helveticaltstdlight.woff') format('woff'), 
+            url('../fonts/helveticaltstdlight.ttf')  format('truetype'), 
+            url('../fonts/helveticaltstdlight.svg#helveticaltstdlight') format('svg');     
+}
+@font-face {
+       font-family: 'helveticaneueltcombdit';
+       src: url('../fonts/helveticaneueltcombdit.eot');
+       src: url('../fonts/helveticaneueltcombdit.eot?#iefix') format('embedded-opentype'),
+            url('../fonts/helveticaneueltcombdit.woff') format('woff'), 
+            url('../fonts/helveticaneueltcombdit.ttf')  format('truetype'), 
+            url('../fonts/helveticaneueltcombdit.svg#helveticaneueltcombdit') format('svg');     
+}
+@font-face {
+       font-family: 'helveticaneueltcomblk';
+       src: url('../fonts/helveticaneueltcomblk.eot');
+       src: url('../fonts/helveticaneueltcomblk.eot?#iefix') format('embedded-opentype'),
+            url('../fonts/helveticaneueltcomblk.woff') format('woff'), 
+            url('../fonts/helveticaneueltcomblk.ttf')  format('truetype'), 
+            url('../fonts/helveticaneueltcomblk.svg#helveticaneueltcomblk') format('svg');     
+}
+@font-face {
+       font-family: 'helveticaneueltcomlt';
+       src: url('../fonts/helveticaneueltcomlt.eot');
+       src: url('../fonts/helveticaneueltcomlt.eot?#iefix') format('embedded-opentype'),
+            url('../fonts/helveticaneueltcomlt.woff') format('woff'), 
+            url('../fonts/helveticaneueltcomlt.ttf')  format('truetype'), 
+            url('../fonts/helveticaneueltcomlt.svg#helveticaneueltcomlt') format('svg');     
+}
+@font-face {
+       font-family: 'helveticaneueltcomltcn';
+       src: url('../fonts/helveticaneueltcomltcn.eot');
+       src: url('../fonts/helveticaneueltcomltcn.eot?#iefix') format('embedded-opentype'),
+            url('../fonts/helveticaneueltcomltcn.woff') format('woff'), 
+            url('../fonts/helveticaneueltcomltcn.ttf')  format('truetype'), 
+            url('../fonts/helveticaneueltcomltcn.svg#helveticaneueltcomltcn') format('svg');     
+}
+*{
+	margin: 0px;
+	padding: 0px;
+}
+img {
+	border: none;
+}
+body{
+	overflow-x:hidden;
+	background:url(../images/patternbg.png)repeat;
+	
+}
+.shiriti{
+	width: 100%;
+	height: 21px;
+	background:url(../images/bgshiriti.png)repeat-x;
+}
+.mainheader{
+	width:100%;
+	height:113px;
+	border:1px solid #e5183f;
+	background:#fff;
+
+}
+.logo-header{
+	width:960px;
+	height:113px;
+	margin:0 auto;
+}
+.logo-header a img{
+	float:left;
+	padding-top:8px;
+}
+.right-box{
+	width:410px;
+	height:112px;
+	float:right;
+	position:relative;
+}
+.kontaktbox{
+	width:413px;
+	height:40px;
+	background:url(../images/contactbg.png)no-repeat;
+	float: right;
+	margin-top:-10px;
+	position: relative;
+	
+}
+
+.kontaktbox ul li {
+	font-family:Helvetica Neue LT Com;
+	font-size:12px;
+	color:#424143;
+	padding-top:10px;
+	list-style: none;
+	float: left;
+	padding-left:10px;
+	margin-left:2px;
+}
+.kontaktbox ul li:hover {
+	font-family:Helvetica Neue LT Com;
+	font-size:12px;
+	color:#cc1135;
+	padding-left:10px;
+	list-style: none;
+	float: left;
+	cursor:pointer;
+}
+.searchbox{
+	width:203px;
+	height:43px;
+	background: url(../images/searchbg.png)no-repeat ;
+	float:right;
+	margin-top:23px;	
+}
+.searchbox  img{
+	float:left;
+	padding-top:11px;
+	padding-left:10px;
+	
+}
+.searchbox form{
+	float: right;
+	width:160px;
+	height: 23px;
+	background:url(../images/inputbg.png)no-repeat;
+	margin-right:8px;
+	margin-top:10px;
+	padding-top:1px;
+	padding-left:3px;
+}
+.searchbox form input{
+	border: none;
+	float:right:
+}
+.formtxtb{
+	width: 123px;
+	height: 21px;
+	font-family: Helvetica LT Std;
+	font-weight: bold;
+	color: #646b72;
+	font-size: 12px;
+	outline: none;
+	line-height:18px;
+	
+}
+.formbtn{
+	position: relative;
+	float:right;
+	right:7px;
+	width: 30px;
+	height: 22px;
+	cursor: pointer;
+	background: url(../images/gobg.png);
+}
+.maincontent{
+	position: relative;
+	width: 100%;
+}
+.image{
+	width: 100%;
+	position: absolute;
+	height: 800px;
+	background: url(../images/bgunder.png)no-repeat  top;
+	z-index: -1;
+	margin: 0 auto;
+	margin-left: 250px;
+}
+.content{
+	width:960px;
+	margin:0px auto 0px auto;
+}
+
+.mainmenu{
+	height:40px;
+	width:770px;
+	float:left;
+	background:url(../images/bgmenu.png)no-repeat;
+	margin-top: 15px;
+}
+.menu {
+	width:773px;
+	height:40px;
+	padding-left:20px;
+}
+.menu ul {
+	float:left;
+	list-style: none;
+}
+.menu ul li {
+	float:left;
+	list-style:none;
+	margin-top:5px;
+	padding-left:10px;
+}
+.menu ul li a {
+	font-family:Helvetica Neue LT Com;
+	font-size: 22px;
+	color: #a6a5a6;
+	text-decoration:none;
+	float:left;
+	list-style:none;
+	padding-left:20px;
+	padding-bottom: 8px;
+	-webkit-transition: all 0.1s ease-out;  /* Safari 3.2+, Chrome */
+		     -moz-transition: all 0.1s ease-out;  /* Firefox 4-15 */
+		       -o-transition: all 0.1s ease-out;  /* Opera 10.5–12.00 */
+		          transition: all 0.1s ease-out; 
+}
+
+.menu ul li a:hover,.menu ul li a:active{
+	color: #fff;
+}
+
+.sub-menu{
+	position:absolute;
+	z-index:99999;
+	margin-top:34px;
+}
+.menu ul li ul{
+			position:absolute;
+			background: url(../images/bgactive.png)repeat-x;
+			background-size:100% 100%;
+			display: none;
+			min-width:220px;
+			min-height:120px;		
+			
+}
+.menu ul li ul li{
+				
+			clear: left;
+			margin:15px 0px 0px 0px;		
+}
+.menu ul li ul li a{
+
+			text-decoration: none;
+			font-size: 16px;
+			font-family:Helvetica Neue LT Com;
+			font-weight: normal;
+			color: #a5a5a5;
+			float:left;
+			text-transform: none;
+			padding-bottom:0px;			
+}
+.menu ul li:hover ul{
+			display: block;	
+}
+.fbicone{
+	float: right;
+}
+.left{
+	float: left;
+	width: 600px;
+
+}
+.banner{
+	width: 578px;
+	height: 340px;
+	border: 10px solid #444345;
+	float: left;
+	margin-top: 25px;
+	background:#444345;
+	z-index:0
+}
+.text-content {
+	width: 600px;
+	float: left;
+	height: 850px;
+	margin-top: 10px;
+}
+
+.text-content  h5 {
+	font-family:Helvetica Neue LT Com ;
+	font-size:14px;
+	color: #444345;
+	line-height: 17px;
+	font-weight:  lighter;
+	float: left;
+	padding-top:20px;
+}
+.box1
+{
+	width: 600px;
+	height:170px;
+	margin-top:10px;
+	
+}
+.box1 h4 {
+	font-family:Helvetica Neue LT Com ;
+	font-size:14px;
+	color: #444345;
+	line-height: 17px;
+	font-weight:  lighter;
+	float: left;
+	top:10px;
+}
+
+.box1 p {
+	font-family:Helvetica Neue LT Com ;
+	font-size:14px;
+	color: #444345;
+	line-height: 17px;
+	float: left;
+	margin-top: 10px;
+	font-weight: 45 lighter;
+	padding-top:5px;
+}
+.box2
+{
+	width: 600px;
+	height:200px;
+	
+}
+.box2 h3 {
+	font-family:Helvetica Neue LT Com ;
+	font-size:14px;
+	color: #444345;
+	line-height: 17px;
+	font-weight:  lighter;
+	float: left;
+	top:10px;
+}
+
+.box2 p {
+	font-family:Helvetica Neue LT Com ;
+	font-size:14px;
+	color: #444345;
+	line-height: 17px;
+	float: left;
+	margin-top: 5px;
+	font-weight: 45 lighter;
+	padding-top:5px;
+}
+.box3{
+	width: 600px;
+	margin-top: -50px;
+}
+.box3 h3 {
+	font-family:Helvetica Neue LT Com ;
+	font-size:14px;
+	color: #444345;
+	font-weight:  lighter;
+	
+}
+
+.box3 p {
+	font-family:Helvetica Neue LT Com ;
+	font-size:14px;
+	color: #444345;
+	line-height: 17px;
+	float: left;
+	font-weight: 45 lighter;
+	padding-top:10px;
+}
+.p1 h5 {
+	font-family:Helvetica Neue LT Com ;
+	font-size:14px;
+	color: #444345;
+	line-height: 17px;
+	float: left;
+	margin-top:10px;
+	font-weight: 45 lighter;
+	padding-top:10px;
+	
+}
+.p2 {
+	width: 600px;
+	float: left;
+	height: 860px;
+	margin-top: 10px;
+}
+.boxl {
+	width:240px;
+	height:290px;
+	margin-top:20px;
+	float: left;
+}
+.p2 h3 {
+	font-family:Helvetica Neue LT Com;
+	font-size: 16px;
+	color: #434244;
+	font-weight:bold;
+	margin-top: 10px;
+}
+
+.styled-select img  {
+	margin-top: 34px;
+	margin-left: 180px;
+	position: absolute;
+}
+.styled-select select {
+   width: 240px;
+   height: 34px;
+   border: 1px solid #000;
+   font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	margin-top: 7px;
+   }
+.styled-select h4 {
+ 	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	font-weight: normal;
+	margin-top: 5px;
+ }
+.boxl p{
+	margin-top:5px;
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+
+}
+.formtxtv{
+	width: 238px;
+	height: 32px;
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	border: 1px solid #000 !important;
+	outline: none;
+	float: left;
+	margin-top: 2px;
+}
+.formtxtr{
+	width: 238px;
+	height: 32px;
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	border: 1px solid #000 !important;
+	outline: none;
+	margin-top: 30px;
+}
+
+.p2 p{
+	
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	float:left;
+	margin-top:7px;
+}
+.boxo{
+	float: right;
+	width: 245px;
+	height: 220px;
+	margin-top: 110px;
+	margin-right: 90px;
+}
+.boxo p {
+	margin-top: 10px;
+}
+.formtxth{
+	width: 238px;
+	height: 32px;
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	border: 1px solid #000 !important;
+	outline: none;
+	float: left;
+}
+.formtxtj{
+	width: 238px;
+	height: 32px;
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	border: 1px solid #000 !important;
+	outline: none;
+	float: left;
+	margin-top: 22px;
+}
+.formtxtu{
+	width: 238px;
+	height: 32px;
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	border: 1px solid #000 !important;
+	outline: none;
+	float: right;
+	margin-top: 5px;
+}
+.middlebox{
+	width: 505px;
+	height: 55px;
+}
+.middlebox p {
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	float:left;
+	position: absolute;
+	margin-top: 1px;
+}
+.middlebox  h4 {
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	font-weight: normal;
+	float: left;
+	margin-left: 25px;
+}
+.p2.box3 {
+	width:560px;
+	height:550px;
+	float:left;
+}
+.box30{
+	width: 560px;
+	height: 435px;
+	margin-top: 10px;
+}
+.box3 h3{
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 16px;
+	font-weight:bold;
+}
+.box3 p{
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+}
+.formtxt{
+	margin-top:3px;
+	width: 238px;
+	height: 32px;
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	border: 1px solid #000 !important;
+	outline: none;	
+}
+.box3 form {
+	width:140px;
+}
+.checkbox {
+	width: 19px;
+	height: 16px;
+	outline: none;
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	float:left;
+	margin-top: 10px;
+}
+.box3 h4 {
+	width:100px;
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	font-weight:normal;
+	position: absolute;
+	margin-left: 20px;
+	margin-top: 50px;
+}
+.checkbox1 {
+	width: 19px;
+	height: 16px;
+	outline: none;
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 80px;
+}
+.box3 h5 {
+	width: 100px;
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	font-weight:normal;
+	margin-left: 120px;
+	position: absolute;
+	margin-top:30px; 
+}
+.checkbox2 {
+	width: 19px;
+	height: 16px;
+	outline: none;
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	float: left;
+	font-size: 14px;
+	margin-left: 220px;
+	margin-top: -17px;
+}
+.box3 h6 {
+	width: 151px;
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	font-weight:normal;
+	margin-left: 240px;
+	position: absolute;
+	margin-top: 49px;
+}
+.checkbox3 {
+	width: 19px;
+	height: 16px;
+	outline: none;
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	position: absolute;
+	float: left;
+	margin-top: 48px;
+}
+.box3 h7 {
+	width: 140px;
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	font-weight:normal;
+	float: left;
+	margin-left: 417px;
+	margin-top: -19px;
+}
+.checkbox4 {
+	margin-left: 90px;
+	margin-top: -10px;
+}
+.box3 h2 {
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	font-weight:normal;
+}
+.box31{
+	margin-top: 80px;
+	width: 250px;
+	height: 365px;
+	position: absolute;
+}
+.box31 p{
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+}
+.formtxtx{
+	margin-top: 0px;
+	width: 230px;
+	height: 32px;
+	padding-left: 10px;
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	border: 1px solid #000 !important;
+	outline: none;	
+}
+
+.formtxty {
+	width: 240px;
+	height: 70px;
+	border: 1px solid #000;
+	line-height: 70px;
+}
+.formtxto
+{
+	width: 120px;
+	height: 47px;
+	border: 1px solid #ada7a7;
+	margin-top: 10px;
+}
+.formbtn1{
+	position: relative;
+	float: left;
+	top: 8px;
+	width: 144px;
+	color: #fff;
+	height: 40px;
+	cursor: pointer;
+	background: url(../images/sendbg.png);
+	outline: none;
+}
+.box31.value {
+	font-family: Helvetica Neue LT Com;
+	color: #fff;
+	font-size: 16px;
+}
+.box3-right {
+	width: 250px;
+	height: 50px;
+	float: right;
+	margin-right: 80px;
+	margin-top: 110px;
+}
+.box3-right p {
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	margin-top: -25px;
+}
+.formtxtd{ 
+	margin-top: 2px;
+	width: 238px;
+	height: 32px;
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	border: 1px solid #000 !important;
+	outline: none;	
+}
+.p3{
+	width: 630px;
+	height: 2070px;
+}
+.p3 h2 {
+	font-family:Helvetica Neue LT Com ;
+	font-size: 16px;
+	color: #444345;
+	font-weight: bold;
+	line-height: 11px;
+}
+.p3 p {
+	margin-top: 6px;
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+}
+.formtxtm{
+	margin-top: 4px;
+	float: left;
+	width: 238px;
+	height: 32px;
+	padding-left: 10px;
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	border: 1px solid #000 !important;
+	outline: none;
+	position: absolute;
+	
+}
+.box1g {
+	width: 250px;
+	height: 580px;	
+	float: left;
+	margin-top: 50px;
+	position: relative;
+}
+.box1g p {
+	padding: 5.5px;
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+}
+.box1g  h2 {
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	font-weight: lighter;
+}
+.checkboxv {
+	width: 19px;
+	height: 16px;
+	outline: none;
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	float:left;
+	margin-left: -3px;
+	margin-top: 2px;
+}
+.checkbox1ag {
+	width: 19px;
+	height: 16px;
+	outline: none;
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	margin-left:52px;
+	float: left;
+	margin-top: 2px;
+}
+.box1g h5 {
+	width: auto;
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	font-weight:normal;
+	margin-top: -20px;
+	position: absolute;
+	margin-left: 88px;
+}
+.box1g h4 {
+	width:auto;
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	font-weight:normal;
+	position: absolute;
+	margin-top: 1	px;
+	float: left;
+	margin-left: 16px;
+}
+.checkbox3af  {
+	width:auto;
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	font-weight:normal;
+	position: absolute;
+	margin-top: 3px;
+	float: left;
+}
+.checkbox3af h8 {
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+}
+.checkbox1f p {
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+}
+.box1g h3 {
+	font-family: Helvetica Neue LT Com ;
+	font-size:12px ;
+	color:#434244 ;
+	font-weight: lighter;
+	font-style: italic;
+	margin-top: 7px;
+}
+.box1g h6 {
+	font-family: Helvetica Neue LT Com ;
+	font-size:14px ;
+	color:#434244 ;
+	font-weight: normal;
+}
+.formtxt3{
+	float: left;
+	width: 250px;
+	height: 32px;
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	border: 1px solid #000 !important;
+	outline: none;
+	margin-top: -15px;
+}
+.auslander{
+	width: 240px;
+	height: 40px;
+	float: left;
+	margin-top: 15px;
+	margin-left: -15px;
+}
+.auslander p {
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	position: absolute;
+	margin-top: -5px;
+	margin-left: -4px;
+}
+.checkbox3af1  {
+	width:auto;
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	font-weight:normal;
+	position: absolute;
+	margin-top: 3px;
+	float: left;
+}
+.formtxt1{
+	float: left;
+	width: 238px;
+	height: 32px;
+	padding-left: 10px;
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	border: 1px solid #000 !important;
+	outline: none;
+	margin-top: 3px;
+	
+}
+.box2a {
+	width: 250px;
+	height: 425px;
+	margin-top: 680px; 
+}
+.box2a h3 {
+	font-family: Helvetica Neue LT Com;
+	color: #444345;
+	font-size: 16px;
+	font-weight: bold;
+}
+.box2a  h2 {
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	font-weight: lighter;
+	padding-top: 5px;
+	
+}
+.box2a  h4 {
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	font-weight: lighter;
+	padding-top: 25px;
+}
+.box2a  h6 {
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	font-weight: lighter;
+	padding-top: 10px;
+}
+.box2a h5 {
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 10px;
+	margin-top: 20px;
+}
+.box2a h7{
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	font-weight: lighter;
+}
+.formtxtp{
+	float: left;
+	width: 250px;
+	height: 32px;
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	border: 1px solid #000 !important;
+	outline: none;
+	margin-top: -16px;
+}
+.formtxtr{
+	float: left;
+	width: 250px;
+	height: 32px;
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	border: 1px solid #000 !important;
+	outline: none;
+	margin-top: -17px;
+}
+.checkbox3ar {
+	width: 19px;
+	height: 16px;
+	border: 1px solid #000;
+	outline: none;
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	float:left;
+	margin-top: 15px;
+}
+.checkbox3ar1 {
+	width: 19px;
+	height: 16px;
+	border: 1px solid #000;
+	outline: none;
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	float:left;
+	margin-top: -20px;
+	margin-left: 170px;
+	position: absolute;
+}
+.checkbox3ar1 p {
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	margin-left: 20px;
+}
+.checkbox3ar1 h4 {
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	margin-left: 20px;
+}
+.checkbox3ar h4 {
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	margin-left: 20px;
+	position: absolute;
+}
+.checkbox1f {
+	width: 19px;
+	height: 16px;
+	outline: none;
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	margin-left:70px;
+	margin-top: 2px;
+	position: absolute;
+}
+.checkbox3af1  {
+	width:auto;
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	font-weight:normal;
+	position: absolute;
+	margin-top: 3px;
+	float: left;
+}
+.auslander1 h4 {
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	margin-left: 15px;
+
+}
+.textix{
+	width: 600px;
+	height: auto;
+	margin-top:45px;
+}
+.textix p {
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	font-style: italic;
+	line-height:18px; 
+}
+.formtxts{
+	float: left;
+	width: 250px;
+	height: 70px;
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	border: 1px solid #000 !important;
+	outline: none;
+	margin-top: -15px;
+}
+.formtxto
+{
+	width: 120px;
+	height: 47px;
+	border: 1px solid #ada7a7;
+	margin-top: 10px;
+}
+.formbtn1a{
+	position: relative;
+	float: left;
+	color: #fff;
+	top: 4px;
+	width: 144px;
+	height: 40px;
+	cursor: pointer;
+	background: url(../images/sendbg.png);
+	outline: none;
+	margin-top: 5px;
+}
+.right-a1{
+	width: 250px;
+	height: 150px;
+	float: right;
+	margin-right: 80px;
+	margin-top: -29px;
+}
+.right-a1 h3{
+	font-family: Helvetica Neue LT Com ;
+	font-size:12px ;
+	color:#434244 ;
+	font-weight: lighter;
+	font-style: italic;
+	margin-top: 40px;
+}
+ .right-a1 h2 {
+ 	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	font-weight: lighter;
+	padding-top: 5px;
+}
+.middle2 {
+	width: 252px;
+	height: 280px;
+}
+.middle2 h2 {
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	font-weight: lighter;
+	padding-top: 29.5px;
+}
+.middl3{
+	width: 250px;
+	height: 50px;
+	float: right;
+	margin-top: 285px;
+	margin-right: 80px;
+}
+.p3 h4 {
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	font-weight: lighter;
+}
+.formtxtho {
+	float: left;
+	width: 250px;
+	height: 32px;
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	border: 1px solid #000 !important;
+	outline: none;
+	margin-top: -11px;
+}
+.middl4{
+	width: 250px;
+	height: 50px;
+	float: right;
+	margin-top: 39px;
+	margin-right: 80px;
+}
+.p3 h4 {
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	font-weight: lighter;
+}
+.formtxtho1 {
+	float: left;
+	width: 250px;
+	height: 32px;
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	border: 1px solid #000 !important;
+	outline: none;
+	margin-top: -4px;
+}
+.formtxtho2 {
+	float: left;
+	width: 250px;
+	height: 32px;
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	border: 1px solid #000 !important;
+	outline: none;
+	margin-top: -6px;
+}
+.middle5{
+	width: 325px;
+	height: 40px;
+	float: right;
+	margin-top: 25px;
+}
+.middle5 h4 {
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	font-weight: lighter;
+}
+.checkbox3ag {
+	width: 19px;
+	height: 16px;
+	outline: none;
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	margin-left: -3px;
+	margin-top: 2px;
+	float: left;
+}
+.checkbox3ag1 {
+	width: 19px;
+	height: 16px;
+	border: 1px solid #000;
+	outline: none;
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	margin-left: 100px;
+	margin-top: -21px;
+	float: left;
+}
+.checkbox3ag2 {
+	width: 19px;
+	height: 16px;
+	border: 1px solid #000;
+	outline: none;
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	margin-left: 200px;
+	margin-top: -45px;
+	float: left;
+}
+.middle5 h4 {
+}
+.middl6{
+	width: 250px;
+	height: 50px;
+	float: right;
+	margin-top: 72px;
+	margin-right: 77px;
+}
+.auslander1{
+	width: 240px;
+	height: 40px;
+	float: left;
+	margin-top: 140px;
+	margin-left: -14px;
+}
+.auslander1 p {
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	position: absolute;
+	margin-top: -5px;
+	margin-left: -4px;
+}
+.checkbox1f1 {
+	width: 19px;
+	height: 16px;
+	outline: none;
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	margin-left:96px;
+	margin-top: -15px;
+	position: absolute;
+}
+.auslander2{
+	width: 240px;
+	height: 40px;
+	float: left;
+	margin-top: 150px;
+}
+.auslander2 p {
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	position: absolute;
+	margin-top: -5px;
+	margin-left: -4px;
+}
+.checkbox1f11 {
+	width: 19px;
+	height: 16px;
+	border: 1px solid #000;
+	outline: none;
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	margin-left:97px;
+	margin-top: -15px;
+	position: absolute;
+}
+.auslander1 h6 {
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	font-weight: lighter;
+	position: absolute;
+	margin-left: 114px;
+	margin-top: -17px;
+}
+.auslander2 {
+	margin-top: 10px;
+}
+
+.auslander2 h6 {
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	font-weight: lighter;
+	position: absolute;
+	margin-left: 115px;
+	margin-top: -17px;
+}
+.auslander2 h4 {
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	font-weight: lighter;
+}
+.middlex {
+	width: 250px;
+	height: 120px;
+	float: left;
+	margin-left: 303px;
+	margin-top: 862px;
+	position: absolute;
+}
+.middlex h2 {
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	font-weight: lighter;
+	padding-top: 29.5px;
+}
+.middlex1{
+	width:250px;
+	height:60px;
+	float:right;
+	margin-right:-250px;
+	margin-top:390px;
+}
+.checkbox3aff  {
+	width:auto;
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	font-weight:normal;
+	margin-top: 15px;
+	float: left;
+}
+.middlex1 h4 {
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	float:left;
+	margin-top:13px;
+	margin-left:2px;
+}
+.middlex1 h6 {
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	font-weight: lighter;
+	position: absolute;
+	margin-left: 110px;
+	margin-top: -20px;
+}
+.checkbox1g1 {
+	width: 19px;
+	height: 16px;
+	outline: none;
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	margin-left:64px;
+	margin-top: 13px;
+}
+.box212{
+	width:250px;
+	height:405px;
+	float:right;
+	margin-right:-251px;
+	margin-top:509px;
+}
+.formtxtr1{
+	width: 248px;
+	height: 32px;
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	border: 1px solid #000 !important;
+	outline: none;
+	margin-top:7px;
+}
+.box212  h4 {
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	font-weight: lighter;
+	position:absolute;
+	margin-top:9px;
+}
+.boxing{
+	width: 250px;
+	height: 390px;
+	border: 1px solid #000;
+	float: right;
+	margin-left: 300px;
+}
+.styled-selecta {
+	margin-top: 15px;
+}
+.styled-selecta img {
+	position: absolute;
+	margin-top: 26px;
+	margin-left: 234px;
+}
+.styled-selecta option {
+	margin-top: 5px;
+}
+.styled-selecta select {
+   width: 250px;
+   height: 34px;
+   
+   border: 1px solid #000;
+   font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+   }
+ .styled-selecta h4 {
+ 	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	font-weight: normal;
+ }
+ .p4 {
+	 width:610px;
+	 height: 640px;
+ }
+ .p4 p {
+	font-family: Helvetica Neue LT Com;
+	font-size:14px;
+	color:#444345;
+	line-height:17px;
+	font-weight:normal;
+ }
+ .p4 h1 {
+ 	font-family: Helvetica Neue LT Com;
+	font-size:16px;
+	color:#444345;
+	line-height:17px;
+	font-weight:bold;
+	text-transform:uppercase;
+	margin-top:25px;
+	
+ }
+.p4  h4 {
+	font-family: Helvetica Neue LT Com;
+	font-size:14px;
+	color:#444345;
+	line-height:17px;
+	font-weight:normal;
+	margin-top:15px;
+ }
+ .p5 {
+	width:610px;
+	height: 640px;
+	}
+.p5 h3	 {
+	font-family: Helvetica Neue LT Com;
+	font-size:14px;
+	font-weight:normal;
+	line-height:17px;
+	color:#444345;
+}
+.adresa {
+	width:288px;
+	height:127px;
+	border:1px solid #000;
+	margin-top:17px;
+	background:#fff;
+	float:left;
+}
+.adresa h4 {
+	font-family: Helvetica Neue LT Com;
+	font-size:16px;
+	font-weight:bold;
+	color:#444345;
+	margin-top:20px;
+	margin-left:20px;
+}
+.adresa h5 {
+	font-family: Helvetica Neue LT Com;
+	font-size:14px;
+	font-weight:normal;
+	margin-left:20px;
+}
+.adresar {
+	width:288px;
+	height:127px;
+	border:1px solid #000;
+	float:right;
+	margin-top:17px;
+	background:#fff;
+	margin-right:10px;
+	}
+	.adresar h4 {
+	font-family: Helvetica Neue LT Com;
+	font-size:16px;
+	font-weight:bold;
+	color:#444345;
+	margin-top:20px;
+	margin-left:20px;
+}
+.adresar h5 {
+	font-family: Helvetica Neue LT Com;
+	font-size:14px;
+	font-weight:normal;
+	margin-left:20px;
+}
+.box1down {
+	width:290px;
+	height:350px;
+	float:left;
+	margin-top:20px;
+}
+.box1down h3 {
+	font-family: Helvetica Neue LT Com;
+	font-size:14px;
+	font-weight:normal;
+	margint-top:10px;
+}
+.formtxtk{
+	margin-top: -15px;
+	float: left;
+	width: 280px;
+	height: 32px;
+	padding-left: 10px;
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	border: 1px solid #000 !important;
+	outline: none;
+	position: absolute;
+	
+}
+.formtxtpa{
+	float: left;
+	width: 280px;
+	height: 118px;
+	padding-left: 10px;
+	font-family: Helvetica Neue LT Com;
+	color: #434244;
+	font-size: 14px;
+	border: 1px solid #000 !important;
+	outline: none;
+	position: absolute;
+}
+.formbtn1ab{
+	position: relative;
+	float: right;
+	top: 123px;
+	color: #fff;
+	width: 103px;
+	height: 28px;
+	cursor: pointer;
+	background: url(../images/send2.png);
+	outline: none;
+}
+.box1down2{
+	float:right;
+	width:288px;
+	height:275px;
+	border:1px solid #000;
+	margin-top:41px;
+	margin-right:10px;
+}
+.right-content
+{
+	width: 318px;
+	height: 870px;
+	float: right;
+	margin-top: 24px;
+
+}
+.online-box{
+	width: 318px;
+	height: 223px;
+	background: #6e6d6e;
+	background:url(../images/bgonline.png)no-repeat;
+}
+.online-box h4 {
+	font-family: Helvetica Neue LT Com;
+	font-size: 16px;
+	color: #fff;
+	font-weight: 95 Black;
+	line-height: 19px;
+	padding-top: 20px;
+	padding-left: 60px;
+}
+.online-box p {
+	padding-top: 20px;
+	padding-left: 20px;
+}
+.online-box p a  {
+	text-decoration: none;
+	font-family: Helvetica Neue LT Com;
+	font-size: 16px;
+	color: #fff;
+	font-weight: 45 light;
+	padding-left: 20px;
+	background:url(../images/nextwhite.png)no-repeat;
+	background-position: left;
+}
+.online-box p a:hover{
+	text-decoration: none;
+	font-family: Helvetica Neue LT Com;
+	font-size: 16px;
+	color: #cc1135;
+	font-weight: 45 light;
+	background: url(../images/next-red.png)no-repeat;
+	background-position: left;
+}
+
+.pdf-box{
+	width: 318px;
+	height: 283px;
+	background: #000;
+	opacity: 0.5;
+	margin-top: 20px;
+}
+.pdf-box h4 {
+	font-family: Helvetica Neue LT Com;
+	font-size: 16px;
+	color: #fff;
+	font-weight: bold;
+	line-height: 19px;
+	padding-top: 20px;
+	padding-left: 100px;
+}
+.pdf-box p {
+	padding-top: 30px;
+	padding-left: 20px;
+}
+.pdf-box p a{
+	text-decoration: none;
+	font-family: Helvetica Neue LT Com;
+	font-size: 16px;
+	color: #fff;
+	font-weight: 45 light;
+	padding-left: 35px;
+	background:url(../images/pdficone.png)no-repeat;
+	background-position: left;
+	
+}
+
+.vd-conslut{
+	width: 318px;
+	height: 327px;
+	background: #000;
+	opacity: 0.5;
+	margin-top: 20px;
+}
+.vd-conslut h3 {
+	font-family: Helvetica Neue LT Com;
+	font-size: 16px;
+	color: #fff;
+	font-weight: bold;
+	padding-top: 15px;
+	padding-left: 70px;
+}
+.vd-conslut p {
+	padding-top: 4px;
+	padding-left: px;
+}
+.vd-conslut p a{
+	text-decoration: none;
+	font-family: Helvetica Neue LT Com;
+	font-size: 14px;
+	color: #fff;
+	font-weight: 45 light;
+	padding-left: 30px;
+	padding-top: 10px;
+}
+.mainfooter{
+	width: 100%;
+	height: 80px;
+	background: #3e3d3f;
+	clear: both;
+}
+.footer{
+	width: 960px;
+	height: 80px;
+	margin: 0 auto;
+}
+.footer h4{
+	padding-top: 10px;
+	font-size: 12px;
+	font-family: Helvetica LT Std ;
+	color: #fff;
+	font-weight: lighter;
+	text-transform: uppercase;
+	line-height: 18px;
+	
+}
+.footer  p  {
+	font-size: 12px;
+	font-family: Helvetica LT Std light ;
+	color: #fff;
+	font-weight: lighter;
+	padding-top: 2px;
+}
+.footer  p a  {
+	font-size: 12px;
+	font-family: Helvetica LT Std light ;
+	color: #fff;
+	font-weight: lighter;
+	padding-top: 5px;
+	text-decoration: none;
+}
+.footer h5  {
+	font-size: 12px;
+	font-family: Helvetica LT Std light ;
+	color: #fff;
+	font-weight: lighter;
+	text-decoration: none;
+	float: right;
+	margin-top:-15px;
+
+}
+.footer h5 a{
+	font-size: 12px;
+	font-family: Helvetica LT Std light ;
+	color: #fff;
+	text-decoration: none;
+}
