@@ -1,0 +1,173 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+	    <title>Spahr_Co</title>
+	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	    <link href="css/style.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="css/default.css" type="text/css" media="screen" />
+	    <link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+	    <script src="js/jquery-1.7.1.min.js"></script>
+		<script src="js/responsiveslides.js"></script>
+		  <script>
+		    // You can also use "$(window).load(function() {"
+		    $(function () {
+		      $("#slider1").responsiveSlides({
+		        maxwidth: 800,
+		        speed: 800
+		      });
+		      $("#slider4").responsiveSlides({
+		        auto: false,
+		        pager: false,
+		        nav: true,
+		        speed: 500,
+		        namespace: "callbacks",
+		        before: function () {
+		          $('.events').append("<li>before event fired.</li>");
+		        },
+		        after: function () {
+		          $('.events').append("<li>after event fired.</li>");
+		        }
+		      });
+
+		    });
+		  </script>
+	</head>
+	<body>
+		<div class="wrp">
+			<div class="wrp1"></div>
+			<div class="body">
+				<div class="mainmenu">
+					<div class="header">
+						<div class="logo">
+							<a href="#"><img src="img/logo.png" width="340" height="75" alt="" ></a>
+						</div>
+						<div class="menu">
+							<ul>
+								<li><a href="#">Gartenbau</a>
+									<ul class="sub1">
+										<li><a href="#">Neuanlagen</a></li>
+										<li><a href="#">Um&auml;nderungen</a></li>
+										<li><a href="#">Unterhalt</a></li>
+										<li><a href="#">Baumpflege</a></li>
+									</ul>
+								</li>
+								<li><a href="#">Forstbetrieb</a>
+									<ul class="sub11">
+										<li><a href="#">Holzernte</a></li>
+										<li><a href="#">Holzhandel</a></li>
+										<li><a href="#">Privatwald</a></li>
+									</ul>
+								</li>
+								<li><a href="#">Sicherheitsholzerei</a>
+									<ul class="sub11">
+										<li><a href="#">Verkehrswege</a></li>
+										<li><a href="#">Schutzwald</a></li>
+										<li><a href="#">Garten und Parkanlagen</a></li>
+									</ul>
+								</li>
+								<li><a href="#">&Uuml;ber Uns</a>
+									<ul class="sub11">
+										<li><a href="#">Team</a></li>
+										<li><a href="#">Maschinen</a></li>
+									</ul>
+								</li>
+								<li><a href="#">News</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="maincontent">
+					<div class="foto">
+						<img src="img/foto.png" width="960" height="380" alt="" />
+					</div>
+					<div class="mainslider">
+						<div class="slider">
+							<div class="slideri">
+								<div id="wrapper">
+									<ul class="rslides" id="slider1">
+									  <li><img src="img/1.png" alt=""></li>
+									  <li><img src="img/2.png" alt=""></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="vijat">
+					</div>
+					<div class="content1">
+						<div class="content11">
+							<div class="content_1">
+								<h1>Willkommen bei Spahr &amp; Co</h1>
+								<div class="p1">
+									<h5>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</h5>
+								</div>
+								<div class="p2">
+									<h5>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.<br /> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.</h5>
+								</div>
+							</div>
+							<div class="content_2">
+								<div class="pp1">
+									<a href="#"><h5>Kontakt</h5></a>
+									<span><b>Adresse:</b> Rudswilstrasse 30, 3423 Ersigen</span>
+									<span><b>Telefon:</b> 079 211 52 72</span><br />
+									<span><b>E-mail:</b> info@spahr-co.ch</span>
+								</div>
+								<div class="pp2">
+									<h5>News</h5>
+									<span><img src="img/lule.png" width="20" height="15" alt="" />
+										  Lorem ipsum dolor sit amet, consectetuer&nbsp;&nbsp; 
+										  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;adipiscing elit, sed diam nonummy nibh
+										  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;euismod tincidunt ut laoreet dolore magna 
+										  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;aliquam erat volutpat. </span>
+								</div>
+							</div>
+							<div class="clear"></div>
+						</div>
+						<div class="clear"></div>
+						<div class="mehr"><a href="#"><p>mehr >></p></a></div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		<div class="bg2">
+			<div class="kontent">
+				<div class="kontent_1">
+					<div class="box1">
+						<img src="img/box1.png" alt="" />
+						<h5>Gartenbau</h5>
+						<span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </span>
+						<h6>mehr >></h6>
+					</div>
+					<div class="box1 box2">
+						<img src="img/box2.png" alt="" />
+						<h5>Forstbetrieb</h5>
+						<span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </span>
+						<h6>mehr >></h6>
+					</div>
+					<div class="box1">
+						<img src="img/box3.png" alt="" />
+						<h5>&Uuml;ber Uns</h5>
+						<span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </span>
+						<h6>mehr >></h6>
+					</div>
+					
+					<div class="clear"></div>
+				</div>
+				<div class="clear"></div>
+					<div class="kontent_2">
+						<div class="footer1">
+							<a href="#"><h4>Kontakt</h4></a>
+							<a href="#"><span>Impresum</span></a>
+						</div>
+						<div class="footer2">
+							<h4><strong>Telefon:</strong> 079 211 52 72  |  E-mail: info@spahr-co.ch</h4>
+							<span>Design by <a href="#">B&auml;renstark AG</a></span>
+						</div>
+					</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+	</body>
+	</html>
